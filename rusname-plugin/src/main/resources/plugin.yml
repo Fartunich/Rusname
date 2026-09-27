@@ -1,0 +1,13 @@
+name: RusNamePlugin
+version: '1.0.0'
+main: ru.example.rusname.RusNamePlugin
+api-version: '1.21'
+author: Claude
+description: >
+  Требует у игрока ввести русские имя и фамилию при первом входе на сервер
+  и отображает их в чате и в табе (списке игроков).
+
+commands:
+  setname:
+    description: Изменить своё имя и фамилию
+    usage: /setname <Имя> <Фамилия>
